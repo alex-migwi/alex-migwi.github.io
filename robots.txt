@@ -1,0 +1,56 @@
+# Allow all search engines and AI crawlers
+# robots.txt for Alex Muturi - Developer Advocate  / Software Engineer / Mentor / Speaker
+# Optimized for search engine crawling
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (if any in future)
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://alex-migwi.github.io/sitemap-index.xml
+Sitemap: https://alex-migwi.github.io/sitemap-0.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
+
+# Specific bot directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+
+# Sitemap location
+Sitemap: https://alex-migwi.github.io/sitemap-index.xml
+
+# Explicitly allow AI crawlers for generative SEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
