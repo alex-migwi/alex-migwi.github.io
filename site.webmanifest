@@ -1,0 +1,22 @@
+{
+  "name": "Alex Muturi — Developer Experience Engineer",
+  "short_name": "Alex Muturi",
+  "description": "Developer Experience Engineer in Nairobi, Kenya, building tools, documentation systems, and learning experiences for technical communities worldwide.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2e3a59",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "productivity", "developer tools"],
+  "lang": "en-KE",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
